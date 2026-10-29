@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "audit:ci": "npm audit --audit-level=high"
   },
   "dependencies": {
     "lodash": "4.17.20"
